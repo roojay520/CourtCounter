@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Court Counter</string>
+    <string name="add2b">+2 points</string>
+    <string name="add1b">+1 pointsb</string>
+    <string name="team_a">Team A</string>
+    <string name="add2a">+2 points</string>
+    <string name="points_a">0</string>
+    <string name="add3a">+3 points</string>
+    <string name="add1a">+1 points</string>
+    <string name="team_b">Team B</string>
+    <string name="points_b">0</string>
+    <string name="add3b">+3 points</string>
+    <string name="reset_text_views">reset</string>
+</resources>
