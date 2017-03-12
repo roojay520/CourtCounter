@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeB(View view) {
         scoreb = scoreb + 3;
-        displayTeamscorea(scoreb);
+        displayTeamscoreb(scoreb);
     }
 
     /**
@@ -63,19 +63,19 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoB(View view) {
         scoreb = scoreb + 2;
-        displayTeamscorea(scoreb);
+        displayTeamscoreb(scoreb);
     }
 
     /**
-     * Add 1 point for the Team .
+     * Add 1 point for the Team B.
      */
     public void addOneB(View view) {
         scoreb = scoreb + 1;
-        displayTeamscorea(scoreb);
+        displayTeamscoreb(scoreb);
     }
 
     /**
-     * Displays the given scorea for Team A.
+     * Displays the given scoreb for Team B.
      */
     public void displayTeamscoreb(int scoreb) {
         TextView scorebView = (TextView) findViewById(R.id.pointsb_text_view);
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
     public void reset(View view) {
         scorea = 0;
         scoreb = 0;
-        displayTeamscorea(scoreb);
+        displayTeamscorea(scorea);
         displayTeamscoreb(scoreb);
 
     }
